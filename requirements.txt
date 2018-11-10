@@ -1,0 +1,1 @@
+-e git+https://github.com/regeirk/pycwt.git#egg=pycwt

@@ -8,9 +8,7 @@ import versioneer
 long_description = open("README.md").read()
 
 install_requires = [
-    'neo>=0.5',
     'numpy>=1.9',
-    'quantities>=0.10.1',
     'scipy',
     'astropy',
     'pandas>=0.14.1',
@@ -24,7 +22,7 @@ extras_require = {
 }
 
 setup(
-    name="exana",
+    name="timefrequency",
     install_requires=install_requires,
     tests_require=install_requires,
     extras_require=extras_require,
